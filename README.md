@@ -1,16 +1,11 @@
 # flutter_exam
+유데미 flutter 강의 학습 예제와 플러너 4기 스터디 추가 과제수행 후 코드 배포 공간
 
-A new Flutter project.
+#### week1
+- [poor App](https://github.com/BangJihoon/flutter_app/blob/main/lib/PoorApp.dart)
+- [rich App](https://github.com/BangJihoon/flutter_app/blob/main/lib/RichApp.dart)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### week2
+- [Dicee App](https://github.com/BangJihoon/flutter_app/blob/main/lib/Dicee.dart)
+- [Magic Ball App](https://github.com/BangJihoon/flutter_app/blob/main/lib/MagicBall.dart)
+- [MiCard App](https://github.com/BangJihoon/flutter_app/blob/main/lib/MiCard.dart)
