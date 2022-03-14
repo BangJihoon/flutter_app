@@ -8,4 +8,6 @@
 #### week2
 - [Dicee App](https://github.com/BangJihoon/flutter_app/blob/main/lib/Dicee.dart)
 - [Magic Ball App](https://github.com/BangJihoon/flutter_app/blob/main/lib/MagicBall.dart)
-- [MiCard App](https://github.com/BangJihoon/flutter_app/blob/main/lib/MiCard.dart) , [apk 권한 설정](https://github.com/BangJihoon/flutter_app/blob/main/android/app/src/main/AndroidManifest.xml)
+- [MiCard App](https://github.com/BangJihoon/flutter_app/blob/main/lib/MiCard.dart) , 
+  + [apk 권한 설정](https://github.com/BangJihoon/flutter_app/blob/main/android/app/src/main/AndroidManifest.xml)
+  + [Url Launcher](https://github.com/BangJihoon/flutter_app/blob/main/lib/UrlLauncher.dart)
