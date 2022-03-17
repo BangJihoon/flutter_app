@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_exam/Xylophone.dart';
+import 'package:flutter_exam/quizzler/quizzler.dart';
 
 void main() {
 //  runApp(const MyApp());
 //  runApp(MiCard());
-  runApp(XylophoneApp());
+  runApp(QulzzlerApp());
 }
 
 class MyApp extends StatelessWidget {
