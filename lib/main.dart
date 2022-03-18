@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_exam/quizzler/quizzler.dart';
+import 'package:flutter_exam/quizzler/QuizzlerApp.dart';
 
 void main() {
 //  runApp(const MyApp());
 //  runApp(MiCard());
-  runApp(QulzzlerApp());
+  runApp(QuizzlerApp());
 }
 
 class MyApp extends StatelessWidget {
