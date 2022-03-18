@@ -28,6 +28,7 @@ flutter:
     - assets/images/dice/
     - assets/images/micard/
     - assets/images/Magicball/
+    - assets/images/Destini/
   fonts:
     - family: Pacifico
       fonts:
