@@ -1,3 +1,4 @@
+// 객체 수정
 class Story {
   String _storyTitle = "BangBang";
   String _choice1 = "choice1";
