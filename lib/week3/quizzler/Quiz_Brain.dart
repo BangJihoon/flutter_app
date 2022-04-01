@@ -1,4 +1,4 @@
-import 'package:flutter_exam/quizzler/Quiz.dart';
+import 'package:flutter_exam/week3/quizzler/Quiz.dart';
 
 class Quiz_Brain {
   int _quizNum = 0;

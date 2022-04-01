@@ -1,4 +1,4 @@
-import 'package:flutter_exam/Destini/story.dart';
+import 'package:flutter_exam/week3/Destini/story.dart';
 
 class StoryBrain {
   List<Story> _storyData = [

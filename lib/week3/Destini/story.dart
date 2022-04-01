@@ -1,8 +1,8 @@
 // 객체 수정
 class Story {
-  String _storyTitle = "BangBang";
-  String _choice1 = "choice1";
-  String _choice2 = "choice2";
+  String _storyTitle;
+  String _choice1;
+  String _choice2;
 
   Story(this._storyTitle, this._choice1, this._choice2);
 

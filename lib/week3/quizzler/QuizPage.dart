@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_exam/quizzler/Quiz_Brain.dart';
+import 'package:flutter_exam/week3/quizzler/Quiz_Brain.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 // 상태저장 앱  QuizPage()

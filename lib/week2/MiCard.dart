@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_exam/UrlLauncher.dart';
+import 'package:flutter_exam/week2/UrlLauncher.dart';
 
 // 2주차 - row, column, safeArea(크기가 넘어가지않게해줌), font 적용,
 

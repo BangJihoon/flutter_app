@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_exam/Destini/story_brain.dart';
+import 'package:flutter_exam/week3/Destini/story_brain.dart';
 
 void main() => runApp(Destini());
 
