@@ -11,3 +11,8 @@
 - [MiCard App](https://github.com/BangJihoon/flutter_app/blob/main/lib/MiCard.dart) , 
   + [apk 권한 설정](https://github.com/BangJihoon/flutter_app/blob/main/android/app/src/main/AndroidManifest.xml)
   + [Url Launcher](https://github.com/BangJihoon/flutter_app/blob/main/lib/UrlLauncher.dart)
+
+
+#### week3
+#### week4
+#### week5
