@@ -1,6 +1,6 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_exam/StoneGame/stone_brain.dart';
+import 'package:flutter_exam/week3/StoneGame/stone_brain.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 void main() => runApp(StoneApp());

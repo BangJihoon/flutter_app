@@ -1,5 +1,8 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
+import 'package:flutter_exam/week5/services/location.dart';
+import 'package:http/http.dart' as http;
 
 class LoadingScreen extends StatefulWidget {
   @override
@@ -7,12 +10,28 @@ class LoadingScreen extends StatefulWidget {
 }
 
 class _LoadingScreenState extends State<LoadingScreen> {
+  @override
+  void initState() {
+    super.initState();
+    getLocation();
+  }
+
   void getLocation() async {
-    // async는  비동기로 백그라운드로 실행 , 멈춤을 방지한다.
-    Position position = await Geolocator.getCurrentPosition(
-        desiredAccuracy:
-            LocationAccuracy.low); // 베터리와 직결되므로 날씨같은 앱은 정확도를 수준을 낮추자
-    print(position);
+    Location location = Location();
+    await location.getCurrentLocation();
+    print(location.latitude);
+    print(location.longitude);
+  }
+
+  void getData() async {
+    Url url =
+        'https://samples.openweathermap.org/data/2.5/weather?lat=37&lon=126&appid=d472ecddc2e3dc2ddef141cae9d1a129'
+            as Url;
+    http.Response responce = await http.get(url);
+    if (responce.statusCode == 200)
+      print(responce.body);
+    else
+      print(responce.statusCode);
   }
 
   @override
@@ -21,7 +40,6 @@ class _LoadingScreenState extends State<LoadingScreen> {
       body: Center(
         child: RaisedButton(
           onPressed: () {
-            //Get the current location
             getLocation();
           },
           child: Text('Get Location'),
