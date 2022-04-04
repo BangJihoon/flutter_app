@@ -17,6 +17,7 @@ dependencies:
   # clima
   geolocator : ^8.2.0
   http: ^0.13.4
+  flutter_spinkit: ^3.1.0
 
 dev_dependencies:
   flutter_test:
@@ -29,7 +30,7 @@ flutter:
     - assets/
     - assets/xylophone/
     - assets/StoneGame/
-    - assets/clima/
+    - assets/clima/images/
     - assets/images/
     - assets/images/dice/
     - assets/images/micard/
